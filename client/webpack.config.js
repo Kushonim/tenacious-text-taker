@@ -19,7 +19,7 @@ module.exports = () => {
     },
     plugins: [
       new HtmlWebpackPlugin ({
-        template: 'index.html',
+        template: './index.html',
         title: 'text-editor'
       }),
 
@@ -37,6 +37,7 @@ module.exports = () => {
         fingerprints: false,
         inject: true,
         start_url: "/",
+        publicPath: '/',
         icons: [{
           src: path.resolve("./src/images/logo.png"),
           sizes: [96, 128, 192, 256, 384, 512],
