@@ -1,4 +1,4 @@
-# tenacious-test-taker
+# tenacious-text-taker
 ## Description
 Tenacious Text Taker (TTT) is a Progressive Web Application (PWA) designed to function as a versatile text editor. This single-page application leverages various data persistence techniques to ensure that users can create notes or code snippets both online and offline, providing reliable data retrieval. It meets the PWA criteria and is built to work seamlessly across different browsers and environments.This small project was an exercise to better understand the PWAs and the usage of indexed databases as storage.
 
